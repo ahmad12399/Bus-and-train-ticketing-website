@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Ticketing</title>
+  <style>
+    *{
+        margin: 0;
+        padding:0;
+      }
+    body {
+      font-family: 'Helvetica Neue', sans-serif;
+      background-color:darkblue;
+      color: white;
+    }
+
+    .navbar {
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 16px 5%;
+      background-color: #0d193d;
+  
+    }
+
+    .logo {
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 24px;
+      
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .nav-links a:hover {
+      text-decoration: underline;
+    }
+
+    .nav-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+
+    }
+
+    .btn {
+      padding: 8px 16px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .login-btn {
+      border: 1px solid white;
+      color: white;
+    }
+
+    .signup-btn {
+      background-color: #0099ff;
+      color: white;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 80px 32px;
+      min-height: 80vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      background-image: url('https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+    .hero-content h1 {
+      font-size: 40px;
+      margin-bottom: 16px;
+    }
+
+    .hero-content p {
+      font-size: 16px;
+      margin-bottom: 32px;
+    }
+
+    .cta-btn {
+      background-color: #0099ff;
+      padding: 12px 32px;
+      border-radius: 30px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    .cta-btn:hover {
+      background-color: #007acc;
+    }
+
+    
+  </style>
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="logo">Smart Ticketing</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="WEBPROJECT.html">Home</a></li>
+        <li><a href="booking.html">Book Ticket</a></li>
+        <li><a href="shedule.html">Schedule</a></li>
+        <li><a href="price.html">Pricing</a></li>
+        <li><a href="abbout.html">About Us</a></li>
+        <li><a href="faaq.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="nav-buttons">
+      <a href="login.html" class="btn login-btn">Log In</a>
+      <a href="signup.html" class="btn signup-btn">Sign Up</a>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Your Safe Travel Journey <br> Is Our Main Goal</h1>
+      <p>Learn more about our advanced travel experiences <br> designed to take care of those you value the most.</p>
+      <a href="#" class="cta-btn">Get Started</a>
+    </div>
+  </section>
+
+  <footer style="background-color:#0d193d; color:white; text-align:center; padding:15px; font-size:0.95rem;">
+    &copy; 2025 Syed Ahmad Ali. All rights reserved.
+  </footer>
+
+</body>
+</html>
